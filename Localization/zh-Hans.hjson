@@ -1,0 +1,16 @@
+Mods:{
+	StarboundMusic:
+	{
+		Config0:是否启用星界边境的音乐代替原版的
+		Config1:默认是按个人喜好了www，如果想调还是等阿汪下次整吧
+		Config2:多少分钟换一次音乐？
+		Config3:默认四分钟。
+		Config4:是否在世界中启用音符背景
+		Config5:很好看也很亮瞎眼,这个背景在标题画面那里也有
+		Config6:是否在白天启用音符背景
+		Config7:同时影响标题和世界www
+		Config8:音符数量(以一百为单位
+		Config9:星火燎原还是长夜孤星?
+		BackgroundName:星界边境音乐包
+	}
+}
