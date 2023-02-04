@@ -300,6 +300,7 @@ namespace StarboundMusic
 				set
 				{
 					_texture = value;
+					if (_texture == null) return;
 					FrameWidth = value.Width / 3;
 					FrameHeight = value.Height;
 				}
