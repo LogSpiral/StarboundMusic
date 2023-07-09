@@ -14,16 +14,16 @@ namespace StarboundMusic
         public override void Load()
         {
             canUseMusic = false;
-            On.Terraria.Main.UpdateAudio_DecideOnNewMusic += StarboundMusicHook;
+            Terraria.On_Main.UpdateAudio_DecideOnNewMusic += StarboundMusicHook;
             SkyManager.Instance["StarboundMusic:NoteSky"] = new StarboundMusicNoteSky();
         }
         public override void Unload()
         {
-            On.Terraria.Main.UpdateAudio_DecideOnNewMusic -= StarboundMusicHook;
+            Terraria.On_Main.UpdateAudio_DecideOnNewMusic -= StarboundMusicHook;
 
         }
         public static bool canUseMusic = false;
-        private void StarboundMusicHook(On.Terraria.Main.orig_UpdateAudio_DecideOnNewMusic orig, Main self)
+        private void StarboundMusicHook(Terraria.On_Main.orig_UpdateAudio_DecideOnNewMusic orig, Main self)
         {
             bool notUseStbMusic = StarboundMusicConfig.instance == null || !StarboundMusicConfig.instance.starboundMusicActive || !canUseMusic;
             var fieldInfo = typeof(Main).GetField("_isAsyncLoadComplete", BindingFlags.NonPublic | BindingFlags.Static);
