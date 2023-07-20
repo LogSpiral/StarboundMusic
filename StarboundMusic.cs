@@ -14,12 +14,12 @@ namespace StarboundMusic
         public override void Load()
         {
             canUseMusic = false;
-            Terraria.On_Main.UpdateAudio_DecideOnNewMusic += StarboundMusicHook;
+            On_Main.UpdateAudio_DecideOnNewMusic += StarboundMusicHook; 
             SkyManager.Instance["StarboundMusic:NoteSky"] = new StarboundMusicNoteSky();
         }
         public override void Unload()
         {
-            Terraria.On_Main.UpdateAudio_DecideOnNewMusic -= StarboundMusicHook;
+            On_Main.UpdateAudio_DecideOnNewMusic -= StarboundMusicHook;
 
         }
         public static bool canUseMusic = false;
@@ -67,7 +67,7 @@ namespace StarboundMusic
                     case MusicID.Plantera:
                     case MusicID.Boss5:
                     case MusicID.QueenSlime:
-                        GetMusicIndex("StarBound/DesertBattle2");
+                        GetMusicIndex("StarBound/ScorianFlow");//DesertBattle2
                         break;
                     case MusicID.Boss4:
                         GetMusicIndex("StarBound/OceanBattle1");

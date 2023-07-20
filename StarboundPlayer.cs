@@ -62,7 +62,9 @@ namespace StarboundMusic
 		{
 			LoadStbMusic(ref dayMusic, new string[]
 			{
-				"StellarFormation",
+                "CygnusX1",
+                "HymntotheStars",
+                "StellarFormation",
 				"Vast,ImmortalSuns",
 				"EpsilonIndi"
 			});
@@ -96,9 +98,10 @@ namespace StarboundMusic
 				"AccretionDisc",
 				"OntheBeachatNightOriginalVersion"
 			});
-			LoadStbMusic(ref evilMusic, new string[]
+            //				"ScorianFlow",
+            LoadStbMusic(ref evilMusic, new string[]
 			{
-				"ScorianFlow",
+
 				"Psyche",
 				"Nomads(Passacaglia)",
 				"TheApex",
@@ -141,9 +144,10 @@ namespace StarboundMusic
 				"GlacialHorizon",
 				"ForsakenGrotto"
 			});
-			LoadStbMusic(ref undergroundEvilMusic, new string[]
+            //				"ScorianFlow",
+            LoadStbMusic(ref undergroundEvilMusic, new string[]
 			{
-				"ScorianFlow",
+
 				"Psyche",
 				"Nomads(Passacaglia)",
 				"CrystalExploration1",
@@ -192,9 +196,9 @@ namespace StarboundMusic
 			{
 				"TheApex"
 			});
+            // "ScorianFlow",
 			LoadStbMusic(ref dungeonMusic, new string[]
 			{
-				"ScorianFlow",
 				"Psyche",
 				"TranquilityBase"
 			});
