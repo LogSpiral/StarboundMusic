@@ -1,37 +1,36 @@
-Mods:{
-	StarboundMusic:
-	{
-		Configs:
-		{
-			StarboundMusicConfig:
-			{
-				starboundMusicActive:
-				{
+Mods: {
+	StarboundMusic: {
+		Configs: {
+			StarboundMusicConfig: {
+				starboundMusicActive: {
 					Label: Instead The Vanilla Music?
 					Tooltip: I'm going to prepare more choose that you can combine the style you favourite.
 				}
-				howLong:
-				{
+
+				howLong: {
 					Label: How long to change the music once？
 					Tooltip: The Default is four minutes.
 				}
-				musicNoteInWorld:
-				{
+
+				musicNoteInWorld: {
 					Label: Active the music note background in world?
 					Tooltip: Is looks nice but dazzling as well.The Sky Effect you can see in the menu,change the background style in the bottom text
 				}
-				howManyNotes:
-				{
+
+				howManyNotes: {
 					Label: Number of music note(In units of one hundred.
 					Tooltip: Twinkle twinkle little star......
 				}
-				musicNoteInDay:
-				{
+
+				musicNoteInDay: {
 					Label: Active the music note background in dayTime?
 					Tooltip: This will affect both menu and world.
 				}
+
+				DisplayName: Starbound Music Config
 			}
 		}
-		BackgroundName:StarboundMusic
+
+		BackgroundName: StarboundMusic
 	}
 }
