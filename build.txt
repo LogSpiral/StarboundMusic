@@ -1,3 +1,3 @@
 displayName = 星界边境音乐包(StarboundMusic)
 author = 阿汪
-version = 0.3
+version = 0.4

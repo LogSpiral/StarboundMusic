@@ -65,7 +65,7 @@ namespace StarboundMusic
                 "CygnusX1",
                 "HymntotheStars",
                 "StellarFormation",
-				"Vast,ImmortalSuns",
+				"VastImmortalSuns",
 				"EpsilonIndi"
 			});
 			LoadStbMusic(ref nightMusic, new string[]
