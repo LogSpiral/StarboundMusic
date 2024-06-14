@@ -2,10 +2,8 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using ReLogic.Content;
-using ReLogic.Graphics;
 using Terraria;
 using Terraria.Audio;
-using Terraria.GameContent;
 using Terraria.Graphics.Effects;
 using Terraria.ID;
 using Terraria.Localization;
@@ -13,8 +11,8 @@ using Terraria.ModLoader;
 
 namespace StarboundMusic
 {
-	// Token: 0x02000006 RID: 6
-	public class StarboundMusicModMenu : ModMenu
+    // Token: 0x02000006 RID: 6
+    public class StarboundMusicModMenu : ModMenu
 	{
 		// Token: 0x17000004 RID: 4
 		// (get) Token: 0x06000015 RID: 21 RVA: 0x00002CC8 File Offset: 0x00000EC8

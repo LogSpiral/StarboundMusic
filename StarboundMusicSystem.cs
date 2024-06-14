@@ -1,14 +1,9 @@
-﻿using System;
-using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
-using ReLogic.Graphics;
-using Terraria;
-using Terraria.GameContent;
+﻿using Microsoft.Xna.Framework.Graphics;
 using Terraria.ModLoader;
 
 namespace StarboundMusic
 {
-	public class StarboundMusicSystem : ModSystem
+    public class StarboundMusicSystem : ModSystem
 	{
         public override void SetupContent()
         {
