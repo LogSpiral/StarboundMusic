@@ -46,7 +46,7 @@ namespace StarboundMusic
 		// Token: 0x06000008 RID: 8 RVA: 0x000022E8 File Offset: 0x000004E8
 		private int[] ToMusicIndex(string[] names, string preName = null)
 		{
-			List<int> result = new List<int>();
+			List<int> result = [];
 			foreach (string name in names)
 			{
 				if (MusicLoader.MusicExists("StarboundMusic/Assets/Music/" + preName + name))
