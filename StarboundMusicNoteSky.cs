@@ -158,7 +158,7 @@ namespace StarboundMusic
 			{
 				return;
 			}
-			Vector2 value = new Vector2(960f, 560f);
+			Vector2 value = new(960f, 560f);
 			Color color = default(Color);
 			Vector2 vector = default(Vector2);
 			for (int j = num; j < num2; j++)
@@ -277,7 +277,7 @@ namespace StarboundMusic
 		private MusicNote[] _notes;
 
 		// Token: 0x04000029 RID: 41
-		private UnifiedRandom _random = new UnifiedRandom();
+		private UnifiedRandom _random = new();
 
 		// Token: 0x0400002A RID: 42
 		private int _lanternsDrawing;
