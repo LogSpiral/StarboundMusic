@@ -54,7 +54,7 @@ namespace StarboundMusic
 					result.Add(GetMusic(preName + name));
 				}
 			}
-			return result.ToArray();
+			return [.. result];
 		}
 
 		// Token: 0x06000009 RID: 9 RVA: 0x0000233C File Offset: 0x0000053C
